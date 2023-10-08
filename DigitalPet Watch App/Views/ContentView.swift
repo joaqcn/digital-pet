@@ -13,12 +13,7 @@ struct ContentView: View {
         {
            //  PET
             
-            //Here goes the pet selected
-            Text("PET")
-                .font(.largeTitle)
-                .border(Color.red)
-                .padding(.bottom,20)
-            
+           PetView()
             //Spacer to make sprite going up
             Spacer()
         // PET STATS
